@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shipment_background"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcomeMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_to_tracking_shipment"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/rinnero"/>
+
+        <Button
+            android:id="@+id/addOrderBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/add_order"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:backgroundTint="@color/background_button_color"
+            android:textColor="@color/text_button_color"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/viewOrdersBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/view_search_orders"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:backgroundTint="@color/background_button_color"
+            android:textColor="@color/text_button_color"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/viewShipmentsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/view_search_shipments"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:backgroundTint="@color/background_button_color"
+            android:textColor="@color/text_button_color"
+            tools:ignore="VisualLintButtonSize" />
+    </LinearLayout>
+</ScrollView>

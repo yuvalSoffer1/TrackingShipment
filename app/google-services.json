@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "353600166574",
+    "project_id": "tracking-shipment-65ad5",
+    "storage_bucket": "tracking-shipment-65ad5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353600166574:android:8498b119f37dfea80e6b3f",
+        "android_client_info": {
+          "package_name": "com.example.trackingshipment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi0zHxoj4VBQUjPXgS34Vtjhr7qFPifbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

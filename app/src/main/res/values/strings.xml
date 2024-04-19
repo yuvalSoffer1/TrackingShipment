@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TrackingShipment</string>
+    <string name="add_shipment">Add Shipment</string>
+    <string name="view_search_orders">View / Search Orders</string>
+    <string name="view_search_shipments">View / Search Shipments</string>
+    <string name="add_order">Add Order</string>
+    <string name="save">Save</string>
+    <string name="shipment_number">Shipment Number: </string>
+    <string name="order_status">Order Status: </string>
+    <string name="delivery_date">Delivery Date</string>
+    <string name="estimated_arrival_date">Estimated Arrival Date</string>
+    <string name="destination_country">Destination Country</string>
+    <string name="departure_date">Departure Date</string>
+    <string name="origin_country">Origin Country</string>
+    <string name="item_description">Item Description</string>
+    <string name="item_number">Item Number</string>
+    <string name="order_date">Order Date</string>
+    <string name="order_number">Order Number: </string>
+    <string name="shipment_time">Shipment Time</string>
+    <string name="shipment_status">Shipment Status: </string>
+    <string name="shipment_date">Shipment Date</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="search_order">Search Order</string>
+    <string name="enter_order_number">Enter an order number</string>
+    <string name="enter_shipment_number">Enter an shipment number</string>
+    <string name="search">Search</string>
+    <string name="welcome_to_tracking_shipment">Welcome To Tracking Shipments</string>
+</resources>

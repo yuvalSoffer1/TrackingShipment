@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/orderNumberTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/orderDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderNumberTextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/itemNumberTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderDateTextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/itemDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemNumberTextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/originCountryTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemDescriptionTextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/departureDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/originCountryTextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/destinationCountryTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/departureDateTextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/estimatedArrivalDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/destinationCountryTextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/deliveryDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/estimatedArrivalDateTextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/orderStatusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deliveryDateTextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/shipmentNumberTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderStatusTextView"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/updateOrderBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shipmentNumberTextView"
+        android:layout_marginStart="95dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/update" />
+
+    <Button
+        android:id="@+id/deleteOrderBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shipmentNumberTextView"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="50dp"
+        android:layout_toEndOf="@id/updateOrderBtn"
+        android:text="@string/delete" />
+</RelativeLayout>
